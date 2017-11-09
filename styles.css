@@ -1,0 +1,11 @@
+img {
+  max-width: 604px;
+  position: absolute;
+  top: 45%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background: #F4F8FC;
+}
