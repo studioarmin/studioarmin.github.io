@@ -4,6 +4,7 @@
   top: 45%;
   z-index: 1000;
   -webkit-transform: translate3d(0,0,0);
+  opacity: 0.6;
 }
 
 body{
@@ -22,6 +23,17 @@ body{
   position: fixed;
   top: 0;
   left: 0;
-  image-rendering: auto;
+  image-rendering: pixelated;
   opacity: 0.7;
+}
+
+.background:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
